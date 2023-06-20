@@ -2,6 +2,10 @@
 // SPDX-License-Identifier: MIT-0
 
 export class HelloWorld {
+    readonly opts: ExtProps
+    constructor(props?: ExtProps) {
+        this.opts = props as ExtProps
+    }
     public sayHello(name: string) {
         return `Hello, ${name}`;
     }
@@ -13,4 +17,12 @@ export class HelloWorld {
         }
         return array[num];
     }
+}
+
+export interface Props {
+    readonly name: string
+}
+
+export interface ExtProps extends Props {
+    readonly goodName: boolean
 }

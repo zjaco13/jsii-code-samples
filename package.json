@@ -13,29 +13,21 @@
   "jsii": {
     "outdir": "dist",
     "targets": {
-      "python": {
-        "distName": "aws-jsiisamples.jsii-code-samples",
-        "module": "aws_jsiisamples.jsii_code_samples"
-      },
-      "java": {
-        "package": "software.aws.jsiisamples.jsii",
-        "maven": {
-          "groupId": "software.aws.jsiisamples.jsii",
-          "artifactId": "jsii-code-samples"
-        }
-      },
-      "dotnet": {
-        "namespace": "AWSSamples.Jsii",
-        "packageId": "AWSSamples.Jsii",
-        "iconUrl": "https://raw.githubusercontent.com/aws/jsii/master/logo/png/128x128.png"
+      "go": {
+        "moduleName": "jsii-code-samples",
+        "packageName": "hello"
       }
     }
   },
   "author": {
+    "name": "Zach Jacobson <zjacobso@amazon.com>"
+
+  },
+  "formerAuthor": {
     "name": "Hari Pachuveetil <pachuvee@amazon.com>"
   },
   "repository": {
-    "url": "https://github.com/aws-samples/jsii-code-samples.git"
+    "url": "https://github.com/zjaco13/jsii-code-samples.git"
   },
   "keywords": [
     "jsii",
@@ -50,12 +42,11 @@
   ],
   "license": "MIT-0",
   "bugs": {
-    "url": "https://github.com/aws-samples/jsii-code-samples/issues"
+    "url": "https://github.com/zjaco13/jsii-code-samples/issues"
   },
-  "homepage": "https://github.com/aws-samples/jsii-code-samples#readme",
+  "homepage": "https://github.com/zjaco13/jsii-code-samples#readme",
   "devDependencies": {
-    "jsii": "^1.70.0",
-    "jsii-pacmak": "^1.70.0",
-    "jsii-release": "^0.2.519"
+    "jsii": "^1.84.0",
+    "jsii-pacmak": "^1.84.0"
   }
 }
