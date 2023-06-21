@@ -24,5 +24,11 @@ export interface Props {
 }
 
 export interface ExtProps extends Props {
-    readonly goodName: boolean
+    readonly goodName?: boolean
+}
+
+export interface IInt {
+    foo(): string
+    mutableNum: number
+    readonly immutableNum: number
 }

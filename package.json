@@ -14,7 +14,7 @@
     "outdir": "dist",
     "targets": {
       "go": {
-        "moduleName": "jsii-code-samples",
+        "moduleName": "github.com/zjaco13/jsii-code-samples",
         "packageName": "hello"
       }
     }
