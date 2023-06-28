@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/jsii_code_samples/__init__.py
+src/jsii_code_samples/py.typed
+src/jsii_code_samples.egg-info/PKG-INFO
+src/jsii_code_samples.egg-info/SOURCES.txt
+src/jsii_code_samples.egg-info/dependency_links.txt
+src/jsii_code_samples.egg-info/requires.txt
+src/jsii_code_samples.egg-info/top_level.txt
+src/jsii_code_samples/_jsii/__init__.py
+src/jsii_code_samples/_jsii/jsii-code-samples@1.7.0.jsii.tgz
