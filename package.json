@@ -12,7 +12,12 @@
   },
   "jsii": {
     "outdir": "dist",
+    "versionFormat": "full",
     "targets": {
+      "python": {
+        "distName": "jsii-code-samples",
+        "module": "jsii_code_samples"
+      },
       "go": {
         "moduleName": "github.com/zjaco13/jsii-code-samples",
         "packageName": "hello"
@@ -21,7 +26,6 @@
   },
   "author": {
     "name": "Zach Jacobson <zjacobso@amazon.com>"
-
   },
   "formerAuthor": {
     "name": "Hari Pachuveetil <pachuvee@amazon.com>"
@@ -48,5 +52,6 @@
   "devDependencies": {
     "jsii": "^1.84.0",
     "jsii-pacmak": "^1.84.0"
-  }
+  },
+  "stability": "stable"
 }

@@ -26,6 +26,7 @@ func (j *jsiiProxy_HelloWorld) Opts() *ExtProps {
 	return returns
 }
 
+
 func NewHelloWorld(props *ExtProps) HelloWorld {
 	_init_.Initialize()
 
@@ -84,3 +85,4 @@ func (h *jsiiProxy_HelloWorld) SayHello(name *string) *string {
 
 	return returns
 }
+
